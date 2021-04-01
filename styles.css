@@ -1,0 +1,36 @@
+.navbar{
+    
+    overflow-y: scroll;
+    height: 100%;
+   
+    position: fixed;
+    /* position: fixed; */
+    min-width: 290px;
+    top: 0px;
+    left: -40px; 
+    width: 300px;
+   
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+ul{
+    list-style: none;
+    font-size: large;
+    display: block;
+    text-align: left;
+    
+}
+.nav-link{
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    color: #4d4e53;
+    cursor: pointer;
+}
+.header{
+    color: black;
+    margin: 10px;
+    text-align:right;
+    font-size: 1.8em;
+}
